@@ -11,7 +11,7 @@ registerApp.constant('CONSTANTS',{
 		IMAGE_UPLOAD		:	'templates/edit-form/image-upload.html',
 		HOBY				:	'templates/edit-form/interest.html'
 	} 
-});
+}); 
 registerApp.config(['$routeProvider','CONSTANTS', function($route,CONSTANTS) {
 	$route.
 		when('/register',{
